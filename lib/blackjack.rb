@@ -43,9 +43,9 @@ def hit?(current_card_total)
     else
       invalid_command
       chosen_key = get_user_input
-      chosen_key = prompt_user
-      if chosen_key == "s"||"h"
+        if chosen_key != "s"||"h"
         prompt_user
+        end
       end
     end 
 end
