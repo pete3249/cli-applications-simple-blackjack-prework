@@ -41,9 +41,9 @@ def hit?(current_card_total)
     elsif decision == "s" 
       new_total = current_card_total
     else
-      invalid_command && prompt_user
+      invalid_command
+      prompt_user
     end 
-  new_total
 end
 
 def invalid_command
