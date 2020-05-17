@@ -37,14 +37,14 @@ def hit?(current_card_total)
       new_total = deal_card + current_card_total
   ``elsif decision == "s" 
     else
-      
-  
+      invalid_command
+      prompt_user
     end 
-  
+  new_total
 end
 
 def invalid_command
-  # code invalid_command here
+  puts "Please enter a valid command"
 end
 
 #####################################################
