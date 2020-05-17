@@ -36,8 +36,9 @@ def hit?(current_card_total)
   prompt_user
   decision = get_user_input
     if decision == "h"
-      deal_card 
-      new_total = next_card + current_card_total
+      card_value = deal_card 
+      binding.pry
+      new_total = card_value + current_card_total
   ``elsif decision == "s" 
       new_total = current_card_total
     else
