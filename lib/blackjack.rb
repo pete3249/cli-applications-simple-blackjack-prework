@@ -23,7 +23,12 @@ def end_game(card_total)
 end
 
 def initial_round
-  # code #initial_round here
+  first_card = deal_card
+  second_card = deal_card
+  sum = first_card + second_card
+  puts sum
+  return sum
+  display_card_total(sum)
 end
 
 def hit?
