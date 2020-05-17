@@ -28,7 +28,8 @@ def initial_round
   sum = first_card + second_card
   puts sum
   return sum
-  display_card_total(sum)
+  sum = card_total
+  display_card_total(card_total)
 end
 
 def hit?
