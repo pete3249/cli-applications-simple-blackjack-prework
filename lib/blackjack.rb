@@ -38,6 +38,7 @@ def hit?(current_card_total)
     if decision == "h"
       card_value = deal_card 
       new_total = current_card_total + card_value
+      new_total
   ``elsif decision == "s" 
       new_total = current_card_total
     else
