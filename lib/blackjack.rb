@@ -1,3 +1,5 @@
+require 'pry'
+
 def welcome
   puts "Welcome to the Blackjack Table"
 end
@@ -33,7 +35,7 @@ end
 def hit?(current_card_total)
   prompt_user
   decision = get_user_input
-  return decision
+  binding.pry
     if decision == "h"
       new_total = deal_card + current_card_total
       puts new_total
