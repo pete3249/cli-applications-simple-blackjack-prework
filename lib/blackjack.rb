@@ -35,11 +35,10 @@ end
 def hit?(current_card_total)
   prompt_user
   decision = get_user_input
-  binding.pry
     if decision == "h"
       new_total = deal_card + current_card_total
-      puts new_total
   ``elsif decision == "s" 
+      new_total = current_card_total
     else
       invalid_command
       prompt_user
