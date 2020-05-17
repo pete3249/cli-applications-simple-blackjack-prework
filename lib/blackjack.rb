@@ -35,7 +35,7 @@ def hit?(current_card_total)
   decision = get_user_input
     if decision == "h"
       new_total = deal_card + current_card_total
-      returns new_total
+      puts new_total
   ``elsif decision == "s" 
     else
       invalid_command
