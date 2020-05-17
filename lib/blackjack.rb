@@ -46,7 +46,6 @@ def hit?(current_card_total)
         if chosen_key != "s"||"h"
         prompt_user
         end
-      end
     end 
 end
 
