@@ -33,6 +33,7 @@ end
 def hit?(current_card_total)
   prompt_user
   decision = get_user_input
+  return decision
     if decision == "h"
       new_total = deal_card + current_card_total
       puts new_total
