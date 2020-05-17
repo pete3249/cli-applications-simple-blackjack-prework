@@ -43,7 +43,9 @@ def hit?(current_card_total)
     else
       invalid_command
       new_response = prompt_user
-        if new_response != "s" 
+        if new_response != "s" || "h"
+          prompt_user
+        end 
     end 
 end
 
