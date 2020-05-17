@@ -47,6 +47,7 @@ def hit?(current_card_total)
         prompt_user
       elsif chosen_key!= "h"
         prompt_user
+      end
     end 
 end
 
