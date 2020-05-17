@@ -63,6 +63,6 @@ def runner
   sum_after_hit = hit?(sum)
     until sum_after_hit > 21
     end
-  end_game
+  end_game(sum_after_hit)
 end
     
