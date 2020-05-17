@@ -30,8 +30,17 @@ def initial_round
   return sum
 end
 
-def hit?
-  # code hit? here
+def hit?(current_card_total)
+  prompt_user
+  decision = get_user_input
+    if decision == "h"
+      new_total = deal_card + current_card_total
+  ``elsif decision == "s" 
+    else
+      
+  
+    end 
+  
 end
 
 def invalid_command
