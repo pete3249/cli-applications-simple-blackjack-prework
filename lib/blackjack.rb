@@ -42,6 +42,10 @@ def hit?(current_card_total)
       new_total = current_card_total
     else
       invalid_command
+      chosen_key = prompt_user
+      if chosen_key != 
+      
+      
       prompt_user
     end 
 end
